@@ -1,0 +1,126 @@
+h1 {
+    color: #581845;
+    text-align: center;
+    font-weight: bold;
+    font-family: Kanit;
+}
+.center {
+    width: 100%;
+}
+
+
+h3 {
+    color: #900c3f;
+    text-align: left;
+    font-weight: bold;
+    font-family: Kanit;
+}
+
+@font-face {
+    font-family: Kanit;
+    src: url(../Kanit/Kanit-Regular.ttf)
+}
+
+body{
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-misctexture01-beer-000_5.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=c1552a7bdc2ea7b6e17d8d0d893c15be);
+    background-repeat: no-repeat;
+    background-attachment: fixed; /*background ค้างที่เดิม*/
+}
+
+img {
+    border: solid #581845 5px;
+    border-radius: 30px; /*if width=height, when border-radius is 50%, the picture will become circle*/
+    width: 250px;
+    height: 300px;
+    opacity: 0.8; /*the opacity value is between 0 and 1*/
+}
+
+.padding {
+    display: inline-block;
+    background-color: #ffc300;
+    padding: 10px 20px 30px 40px; /*ระยะห่างรอบ ๆ ข้อความ*/
+}
+
+.margin {
+    display: inline-block; /*marginใช้ได้เฉพาะตัวที่เป็น inline-block or block*/
+    background-color: #ffc300;
+    margin: 10px 20px 30px 40px; /*ระยะห่างจากหน้ากระดาษ*/ 
+    /*margin: 10px 20px 30px ; บน ขวา ล่าง*/
+    /*margin: 10px 20px ; บน-ล่าง, ซ้าย-ขวา*/
+}
+
+.paddingMargin {
+    display: inline-block;
+    background-color: #ffc300;
+    padding: 10px 20px 30px 40px;
+    margin: 10px 20px 30px 40px;
+}
+
+.pDisplay {
+    display: inline;/*ใส่แล้วเห็น border and background กับ จะไม่มีการขึ้นบรรทัดใหม่ในข้อความถัดไป*/
+    /*display: contents;*/ /*ใส่แล้วไม่เห็นพื้นหลัง กับ no weird line space*/
+    /* inline lets us have padding but content delete padding from us*/
+    
+    border: 1px black solid;
+    background-color: #ffc300;
+    /*ถ้าไม่ใส่พวกข้างบนเลยซักตัว จะมีline space เกิดขึ้น*/
+    font-family: Kanit;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100px 100px 100px 100px;
+    /*justify-content: center;*/ /*บีบให้เหลือตามความกว้างของคอนเท้นต์*/
+    /*justify-content: space-evenly;*/
+    /*justify-content: space-between;/*
+    /*justify-content: space-around;*/
+    /*align-items: end;*//*บีบให้เหลือตามความสูงของคอนเท้นต์*/
+    grid-gap: 20px;
+    background-color: #ffc300;
+}
+
+.container >div {
+    background-color: #900c3f;
+    text-align: center;
+}
+
+.item5 {
+    /*grid-column: 1/4;*/
+    /*grid-row: 1/4;*/
+    /*grid-column: 1/span 2;*/
+    /*grid-row: 1/span 3;*/
+    /*grid-area: 1/1/3/3;*/
+    /*grid-area: 1/1/span 2/span 3;*/
+}
+
+.flex {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    /*align-items: center*/
+    /*justify-content: center; */
+}
+
+.flex>div{
+    width: 20vw;
+    height: 20vh;
+    text-align: center;
+    background-color: aqua;
+    margin: 30px;
+}
+
+.flex>.item3{
+    width: 20vw;
+    height: 20vh;
+    text-align: center;
+    background-color: #900c3f;
+    position: relative;
+    /*position: absolute;/*
+    /*top: 500px;*/
+    /*top: 100px;*/
+    /*bottom: 100px;*/
+    /*right: 100px;*/
+    /*left: 100px;*/
+    /*position: fixed;*/
+}
