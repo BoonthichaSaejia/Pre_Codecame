@@ -1,0 +1,96 @@
+h3 {
+    color: white;
+    font-weight: bold;
+    font-family: Kanit;
+}
+
+p{
+    color: white;
+    font-family: Kanit;
+}
+
+.h3{
+    font-size: 20px;
+}
+
+.grey{
+    color: #E9E5F6;
+    font-family: Kanit;
+    padding-right: 1ch;
+}
+
+.darkgrey{
+    color: #B39DDB;
+    font-family: Kanit;
+    padding-right: 1ch;
+}
+
+@font-face {
+    font-family: Kanit;
+    src: url(../Kanit/Kanit-Regular.ttf)
+}
+
+.directory{
+    border-bottom: solid 1px #2D2A49;
+    border-top:solid 1px #2D2A49;
+    background-color: #44416F;
+    padding-left: 5%;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    weight: 100%;
+    margin:0px 0px;
+}
+
+.content{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top:12px;
+    background-color: #9D9AC0;
+    height:600px;
+    margin:0px 0px;
+}
+
+#head{
+    background-color: #353156;
+    border: solid #2D2A49 1px;
+    padding-left: 2ch;
+    padding-bottom: 15px;
+}
+
+.trend{
+    background-color:#1F1D33;
+    border: solid #E9E5F6 1px;
+    padding-left: 2ch;
+    margin-top: 12px;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 100px 100px 100px 100px;
+    background-color: #44416F;
+}
+
+.box >div {
+    background-color: #44416F;
+    border: solid #E9E5F6 1px;
+    border-top: solid #E9E5F6 0px;
+}
+
+.header{
+
+    background-color: #353156;
+    weight: 100%;
+    margin:0px 0px;
+    height:200px;
+}
+
+img{
+    width:120px;
+    height:63px;
+}
+
+.img-container{
+    padding-top:20px;
+    padding-left:4%;
+}

@@ -4,12 +4,9 @@ h1 {
     font-weight: bold;
     font-family: Kanit;
 }
-.muicenter {
+.center {
     width: 100%;
-    color: #581845;
-    text-align: center;
-    font-weight: bold;
-    font-family: Kanit;
+    
 }
 
 
@@ -20,12 +17,14 @@ h3 {
     font-family: Kanit;
 }
 
-.description {
+p,ul {
     color: #000000;
     text-align: left;
     font-family: Kanit;
-    text-indent: 8ch;
+    text-indent: 4ch;
+    text-align: justify;
 }
+
 
 @font-face {
     font-family: Kanit;
@@ -37,3 +36,15 @@ h3 {
     font-family: Kanit;
 }
 
+.container {
+    margin: 20px 20px 20px 20px;
+}
+
+img{
+    width: 640px;
+    height: 400px;
+}
+
+.img-container{
+    text-align: center;
+}

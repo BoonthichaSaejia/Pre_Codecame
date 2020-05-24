@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LAB CSS2</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/Lab_CSS.css">
+</head>
+<body>
+    <div class="center"><h1>LAB: CSS2</h1></div>
+    <div class="container">
+        <h3>เว็บข่าว : The matter</h3>
+        <div class="img-container">
+            <img src="../Precamp การบ้าน html and css/รูป/The matter.png" alt="The matter">
+        </div>
+        <p>ในหน้านี้จะแบ่งเป็น 2 ส่วนคือ</p>
+        <ul class="D">
+                <li>ส่วน Navigation Bar</li>
+                <li>ส่วน Content</li>
+        </ul>
+        <p>ในส่วน Nav Bar นั้นจะ fixed ให้อยู่ตำแหน่งบนสุดตลอดเวลาและสร้าง div class Nav Bar ครอบ 3 elements ใหญ่ด้วยกันก็คือพวก dropdown ฝั่งซ้าย โลโก้ตรงกลาง แล้วก็ก้อน search and catagories ด้านขวา</p>
+        <p>สำหรับ div class: Left Nav จะสร้าง div class:dropdown ทั้ง 6 อัน แล้วก็จัดให้ห่างเท่า ๆ กัน ต่อมาให้ div class: logo อยู่ตรงกลาง ของ div class: Nav Bar ตลอดเวลา ส่วนกลุ่ม icon ทางขวาจะใช้ div class: Right Nav ครอบ div class: iconWord ซึ่งช่วยจัดให้รูป icon กับ word ห่างเท่า ๆ กัน</p>
+        <p>ในส่วนที่เป็น content จะส่วน div class: content ครอบ แล้วก็ สร้าง div id: headline เข้ามาจัดการรูปกับ headline ของข่าว มีรูปที่กว้างเท่าขนาดกรอบ และสูงเป็น 3ใน4เท่าของความกว้างรูป มี block tag ห่างจากรูปและ block ข้อความที่เท่ากัน</p>
+        <p>แล้วก็ให้แต่ละกล่อง อยู่ใน class:item ที่แตกต่างกัน ใช้ grid ในการจัดหน้า โดยให้ item1 มีcolumn และ row เท่ากับ 1/span 2</p>
+    </div>
+
+    <div class="container">
+            <h3>เว็บช็อปปิ้ง : Lazada</h3>
+            <div class="img-container">
+                <img src="../Precamp การบ้าน html and css/รูป/Siamintershop.png" alt="Siamintershop">
+            </div>
+            <p>ให้ div class:container ใช้ grid จัด 2 div ย่อยคือ side bar กับ content ให้ ตัว .content ใช้ grid-column: 2/span 4</p>
+            <p>ใน div class: sideBar ก็แบ่งเป็น p class: topic กับ p class: subTopic โดยให้ .topic เป็นตัวหนา ส่วน .subTopic เป็นตัวปกติแต่เพิ่ม text-indent: 2ch </p>
+            <p>ใน div class: content ก็ขึ้น div class: header ไว้ใส่หัวข้อก่อน แล้วต่อมาค่อยใน grid แบ่งรายการสินค้าเป็นบล็อกๆ ตั้ง grid-template-columns: 25% 25% 25% 25%;</p>
+            <p>แต่ละรายการสินค้าจะอยู่ใน div class: item ของตัวเอง รูปแบบเหมือนกัน คือมีรูปอยู่ด้านบน แล้วตามด้วยชื่อสินค้าตัวหนา h6 ราคาลด ตัวหนาh5 ราคาก่อนลด ตัวปกติh6 มี text-decoration: line-though</p>
+    </div>
+
+    <div class="container">
+            <h3>เว็บกระทู้ : Pantip</h3>
+            <div class="img-container">
+                <img src="../Precamp การบ้าน html and css/รูป/Pantip.png" alt="Pantip">
+            </div>
+            <p>อยู่ใน <a href="../Precamp การบ้าน html and css/Pantip/Pantip.html">folder Pantip</a> ค่ะ</p>
+            
+    </div>
+    
+    
+    
+</body>
+</html>
