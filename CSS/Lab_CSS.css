@@ -1,0 +1,39 @@
+h1 {
+    color: #581845;
+    text-align: center;
+    font-weight: bold;
+    font-family: Kanit;
+}
+.muicenter {
+    width: 100%;
+    color: #581845;
+    text-align: center;
+    font-weight: bold;
+    font-family: Kanit;
+}
+
+
+h3 {
+    color: #900c3f;
+    text-align: left;
+    font-weight: bold;
+    font-family: Kanit;
+}
+
+.description {
+    color: #000000;
+    text-align: left;
+    font-family: Kanit;
+    text-indent: 8ch;
+}
+
+@font-face {
+    font-family: Kanit;
+    src: url(../Kanit/Kanit-Regular.ttf)
+}
+
+.toolTips{
+    color: #ff5733;
+    font-family: Kanit;
+}
+
