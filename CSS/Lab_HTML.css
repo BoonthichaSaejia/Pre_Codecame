@@ -1,0 +1,49 @@
+h1 {
+    color: #581845;
+    text-align: center;
+    font-weight: bold;
+    font-family: Kanit;
+}
+.center {
+    width: 100%;
+    
+}
+
+
+h3 {
+    color: #900c3f;
+    font-weight: bold;
+    font-family: Kanit;
+}
+
+p,ul {
+    text-align: left;
+    font-family: Kanit;
+
+    text-align: justify;
+}
+
+
+@font-face {
+    font-family: Kanit;
+    src: url(../Kanit/Kanit-Regular.ttf)
+}
+
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+.table td, .table th {
+    border: 1px solid black;
+    padding-left: 3ch;
+    padding-right: 3ch;
+  }
+
+  
+.table th {
+    text-align: left;
+    background-color: #900c3f;
+    color: white;
+}

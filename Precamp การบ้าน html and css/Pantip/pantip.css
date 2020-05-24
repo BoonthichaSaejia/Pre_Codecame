@@ -37,7 +37,7 @@ p{
     padding-left: 5%;
     padding-bottom: 4px;
     padding-top: 4px;
-    weight: 100%;
+    width: 100%;
     margin:0px 0px;
 }
 
@@ -80,7 +80,7 @@ p{
 .header{
 
     background-color: #353156;
-    weight: 100%;
+    width: 100%;
     margin:0px 0px;
     height:200px;
 }

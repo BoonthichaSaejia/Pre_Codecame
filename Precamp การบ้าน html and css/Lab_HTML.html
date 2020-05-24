@@ -4,70 +4,307 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>LAB: HTML</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/Lab_HTML.css">
 </head>
 <body>
     <h1>This is the first lab</h1>
-    <table>
-        <caption><h4><strong>1.Attribute</strong></h4></caption>
+    <table class="table">
+        <caption><h3><strong>1.Attribute</strong></h3></caption>
         <thead>
-            <th>Tag</th>
-            <th>Attribute</th>
-            <th>Using</th>
+            <th><p>Tag</p></th>
+            <th><p>Attribute</p></th>
+            <th><p>Using</p></th>
         </thead>
         <body>
             <tr>
-                <td><h></td>
-                <td></td>
-                <td></td>
+                <td><p>h</p></td>
+                <td><p>-</p></td>
+                <td>
+                    <p>ใช้ครอบข้อความที่ต้องการทำให้เป็นหัวข้อมีอยู่ 6 ขนาด</p>
+                    <p>ไล่ตั้งแต่ h1 จนถึง h6</p>
+
+                </td>
             </tr>
             <tr>
-
+                <td><p>p</p></td>
+                <td><p>align(right,left,justify)</p></td>
+                <td>
+                    <p>ใช้กำหนดการจัดวางของพารากราฟ</p>
+                </td>
             </tr>
             <tr>
-
+                <td><p>div</p></td>
+                <td><p>-</p></td>
+                <td>
+                        <p>ใช้ครอบ element ต่าง ๆ เพื่อทำให้กลายเป็น block ซึ่งง่ายต่อการจัดกลุ่มและจัดวาง</p>
+                </td>
             </tr>
             <tr>
-
+                <td><p>img</p></td>
+                <td>
+                    <p>alt</p>
+                    <p>height</p>
+                    <p>ismap</p>
+                    <p>longdesc</p>
+                    <p>referrerpolicy</p>
+                    <p>sizes</p>
+                    <p>src</p>
+                    <p>srcset</p>
+                    <p>width</p>
+                </td>
+                <td>
+                    <p>ใช้กำหนดข้อความที่ให้แสดง/อ่านเมื่อรูปไม่ขึ้นหรือมองไม่เห็น</p>
+                    <p>assign the height of the image</p>
+                    <p>specify an image as a server-side image-map</p>
+                    <p>specify a URL containing long description of image</p>
+                    <p>specify which referrer to use when fetching the image</p>
+                    <p>assign the size of image for each size of screen</p>
+                    <p>assign the source of image</p>
+                    <p>assign the path to image for using in different situation</p>
+                    <p>assign the width of the image</p>
+                </td>
             </tr>
             <tr>
-
+                <td><p>a</p></td>
+                <td>
+                    <p>download</p>
+                    <p>href</p>
+                    <p>media</p>
+                    <p>ping</p>
+                    <p>referrerpolicy</p>
+                    <p>rel</p>
+                    <p>target</p>
+                    <p>type</p>
+                </td>
+                <td>
+                    <p>specify that the target will be downloaded when the hyperlink is clicked</p>
+                    <p>assign the URL of the page that the link connects to</p>
+                    <p>assign the language of the linked document</p>
+                    <p>use for tracking</p>
+                    <p>assign which referrer to send</p>
+                    <p>tell the relationship between the current document and the linked document</p>
+                    <p>tell the place that keep the document</p>
+                    <p>inform the media type of the linked document</p>
+                </td>
             </tr>
             <tr>
-
+                <td><p>ul</p></td>
+                <td>
+                    <p>compact</p>
+                    <p>type</p>
+                </td>
+                <td>
+                    <p>inform that the list should be in a compact style</p>
+                    <p>use to set the type of markers</p>
+                </td>
             </tr>
             <tr>
-
+                <td><p>ol</p></td>
+                <td>
+                    <p>reversed</p>
+                    <p>start</p>
+                    <p>type</p>
+                </td>
+                <td>
+                    <p>use to assign that list should be reversed</p>
+                    <p>specify the start value of an ordered list</p>
+                    <p>use to set the type of markers</p>
+                </td>
             </tr>
             <tr>
-
+                <td><p>table</p></td>
+                <td>
+                    <p>abbr</p>
+                    <p>align</p>
+                    <p>bgcolor</p>
+                    <p>border</p>
+                    <p>cellpadding</p>
+                    <p>cellspacing</p>
+                    <p>frame</p>
+                    <p>rules</p>
+                    <p>summary</p>
+                    <p>width</p>
+                </td>
+                <td>
+                    <p>assign the abbrevated version of the content in a cell</p>
+                    <p>set the alignment of content</p>
+                    <p>set the background color of the table</p>
+                    <p>set the border</p>
+                    <p>set the padding of the cell</p>
+                    <p>set the space between cell</p>
+                    <p>used in conjunction with the border attributr</p>
+                    <p>specify which rules appear between the cells of the table</p>
+                    <p>set the summary of the content</p>
+                    <p>set the width of the table</p>
+                </td>
+            </tr>   
+            <tr>
+                <td><p>form</p></td>
+                <td>
+                    <p>accept-charset</p>
+                    <p>action</p>
+                    <p>autocomplete</p>
+                    <p>enctype</p>
+                    <p>method</p>
+                    <p>name</p>
+                    <p>novalidate</p>
+                    <p>rel</p>
+                    <p>target</p>
+                </td>
+                <td>
+                    <p>set the character encodings that are to be used for the form submission</p>
+                    <p>set where to send the form</p>
+                    <p>set whether a form should have aotocomplete</p>
+                    <p>tell the way the form should be encoded when sending to the server</p>
+                    <p>set the HTTP method when sending the form</p>
+                    <p>assign the name of form</p>
+                    <p>tell the form won't be validated when submitted</p>
+                    <p>tell the relationship between a linked resource and the document</p>
+                    <p>specify where to display the response after submitting the form</p>
+                </td>
             </tr>
             <tr>
-
-            </tr>
-            <tr>
-
-            </tr>
-            <tr>
-
-            </tr>
+                <td><p>button</p></td>
+                <td>
+                    <p>disabled</p>
+                    <p>form</p>
+                    <p>formmethod</p>
+                    <p>name</p>
+                    <p>type</p>
+                    <p>value</p>
+                </td>
+                <td>
+                    <p>tell that button should be disabled</p>
+                    <p>specify which form the button belongs to</p>
+                    <p>specify how to sent the form-data</p>
+                    <p>set the name for the button</p>
+                    <p>specify the type of button</p>
+                    <p>specify an initial value for the button</p>
+                </td>
+            </tr> 
         </body>
 
     </table>
 
-    <table>
-            <caption><strong>2.Differentiation</strong></caption>
-
+    <table class="table">
+            <caption><h3><strong>2.Differentiation</strong></h3></caption>
+            <thead>
+                    <th><p>Tag</p></th>
+                    <th><p>Diffterence</p></th>
+            </thead>
+            <body>
+                <tr>
+                    <td><p>hr & br</p></td>
+                    <td><p>hr จะเว้นบรรทัดให้พร้อมเส้น ส่วน br จะเว้นบรรทัดเฉยๆ</p></td>
+                </tr>
+                <tr>
+                    <td><p>ul & ol</p></td>
+                    <td><p>ul ใช้กับลิสต์ที่ไม่ต้องเรียงเป็นลำดับส่วน ol ใช้กับลิสต์ี่เป็นลำดับ</p></td>
+                </tr>
+                <tr>
+                    <td><p>select & checkbox & radio button</p></td>
+                    <td><p>select ได้ผลออกมาคล้าย dropdown ส่วน checkbox เป็นกล่องให้ติ๊กถูกโดยไม่กำหนดจำนวนที่เลือกได้ แต่ radio button จะเลือกได้แค่ตัวเดียว แต่ลักษณะช่องคล้าย ๆ checkbox แต่เป็นวงกลม </p></td>
+                </tr>
+                <tr>
+                    <td><p>div & span</p></td>
+                    <td><p>div เป็นblock ส่วน spanจะติดกันเป็นบรรทัดเดียวยาวๆ</p></td>
+                </tr>
+                <tr>
+                    <td><p>script & style</p></td>
+                    <td><p>script เป็นคำสั่งของ javascript ส่วน style เป็นส่วนของ css</p></td>
+                </tr>
+            </body>
     </table>
-
-    <table>
-            <caption><strong>3.Input Type</strong></caption>
-
-
+    <table class="table">
+        <caption><h3><strong>3.Input Type</strong></h3></caption>
+        <thead>
+                <th><p>Input Type</p></th>
+                <th><p>ลักษณะ</p></th>
+        </thead>
+        <body>
+            <tr>
+                <td><p>button</p></td>
+                <td><p>เป็นปุ่มให้กด</p></td>
+            </tr>
+            <tr>
+                <td><p>checkbox</p></td>
+                <td><p>just the checkbox where you can choose in any number</p></td>
+            </tr>
+            <tr>
+                <td><p>color</p></td>
+                <td><p>show the color you choose and when clicking it, there is a color templete where you can adject your own color choice</p></td>
+            </tr>
+            <tr>
+                <td><p>date</p></td>
+                <td><p>show the date and have calendar for you to choose</p></td>
+            </tr>
+            <tr>
+                <td><p>datetime-local</p></td>
+                <td><p>like input type date but have additional choice of time</p></td>
+            </tr>
+            <tr>
+                <td><p>email</p></td>
+                <td><p>let you put only the data in email format</p></td>
+            </tr>
+            <tr>
+                <td><p>file</p></td>
+                <td><p>let you upload file</p></td>
+            </tr>
+            <tr>
+                <td><p>image</p></td>
+                <td><p>let you upload only the file type for image like .png or .jpeg</p></td>
+            </tr>
+            <tr>
+                <td><p>month</p></td>
+                <td><p>have the list of months for you to choose</p></td>
+            </tr>
+            <tr>
+                <td><p>number</p></td>
+                <td><p>allow you put only numerical data</p></td>
+            </tr>
+            <tr>
+                <td><p>password</p></td>
+                <td><p>you can put any text in it but it will hide your input</p></td>
+            </tr>
+            <tr>
+                <td><p>radio</p></td>
+                <td><p>choices with a little circle before it. You can choose only one of them</p></td>
+            </tr>
+            <tr>
+                <td><p>range</p></td>
+                <td><p>let you put the range of numerical data</p></td>
+            </tr>
+            <tr>
+                <td><p>search</p></td>
+                <td><p>a long rectangle with magnifier icon behind it</p></td>
+            </tr>
+            <tr>
+                <td><p>summit</p></td>
+                <td><p>a button with the word "submit" that will send data to somewhere</p></td>
+            </tr>
+            <tr>
+                <td><p>tel</p></td>
+                <td><p>let you to put the data in telephone number format</p></td>
+            </tr>
+            <tr>
+                <td>
+                    <p>text</p>
+                </td>
+                <td><p>let you put a long paragraph of text</p></td>
+            </tr>
+            <tr>
+                <td><p>time</p></td>
+                <td><p>have the choice of time for you</p></td>
+            </tr>
+            <tr>
+                <td><p>url</p></td>
+                <td><p>let you put the data in url format</p></td>
+            </tr>
+        </body>      
     </table>
-    <br>
-    <br>
-    <br>
+    <hr>
+
     <h1>This is the second lab</h1>
     <p><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, voluptatum.</strong></p>
     <p><label>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, explicabo.</label></p>
@@ -78,7 +315,6 @@
     <p><i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates, molestias!</i></p>
     <p><sub>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut, sapiente.</sub></p>
     <p><sup>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe, ipsum!</sup></p>
-
 
 </body>
 </html>
